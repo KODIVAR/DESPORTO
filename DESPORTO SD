@@ -2,11 +2,11 @@
 
 
          <item> 
-            <title>[COLOR lime] • [COLOR white][B][I]REVISAO CANAIS 30/7/2016[/I][/B][/COLOR]</title> 
+            <title>[COLOR lime] • [COLOR grey][B][I]REVISAO CANAIS 30/7/2016[/I][/B][/COLOR]</title> 
    <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
 </item>       
 <item> 
-            <title>[COLOR lime] • [COLOR white][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](SD)[/COLOR]</title> 
+            <title>[COLOR lime] • [COLOR grey][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](SD)[/COLOR]</title> 
    <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>
 <thumbnail>https://s20.postimg.org/tfr3lap19/sport1_de.jpg</thumbnail>
 </item>  
@@ -102,7 +102,7 @@
 
 
 <item> 
-            <title>[COLOR lime] • [COLOR white][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](SPORTSDEVILL)[/COLOR]</title> 
+            <title>[COLOR lime] • [COLOR grey][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](SPORTSDEVILL)[/COLOR]</title> 
    <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
 <thumbnail>https://s20.postimg.org/tfr3lap19/sport1_de.jpg</thumbnail>
 </item>  
@@ -197,7 +197,7 @@
 <thumbnail>http://s20.postimg.org/u3s3bcbb1/a_bola_tv.jpg</thumbnail></item>
 
 <item> 
-            <title>[COLOR lime] • [COLOR white][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](ACESTREAM)[/COLOR]</title> 
+            <title>[COLOR lime] • [COLOR grey][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](ACESTREAM)[/COLOR]</title> 
    <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
 <thumbnail>https://s20.postimg.org/tfr3lap19/sport1_de.jpg</thumbnail>
 </item>  
