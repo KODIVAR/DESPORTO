@@ -1,32 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 
          <item> 
-            <title>[COLOR lime] • [COLOR grey][B][I]REVISAO CANAIS 30/7/2016[/I][/B][/COLOR]</title> 
+            <title>[COLOR cyan] • [COLOR grey][B][I]REVISAO CANAIS 3/8/2016[/I][/B][/COLOR]</title> 
    <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
 </item>       
 <item> 
-            <title>[COLOR lime] • [COLOR grey][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](SD)[/COLOR]</title> 
+            <title>[COLOR green] • [COLOR grey][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](SD)[/COLOR]</title> 
    <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>
 <thumbnail>https://s20.postimg.org/tfr3lap19/sport1_de.jpg</thumbnail>
 </item>  
 <item>  
 <title>[COLOR=white][B][I] SPORTV 1 [/I][/B][/COLOR][COLOR=red][B][I]SD[/I][/B][/COLOR]</title>
-<link>$doregex[file]|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36</link>
+<link>$doregex[get-rtmp]/privatestream/ app=privatestream/ playpath=$doregex[path] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=fawergge</link>
 <regex>
-<name>file</name>
-<expres>file: "(.*?)"</expres>
-<page>http://sharecast.eu/embed/merda1-vwiwv</page>
-<referer>http://sharecast.eu/embed/merda1-vwiwv</referer>
+<name>get-rtmp</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://privatestream.tv/player?streamname=fawergge'):
+ 
+ import requests
+ import re
+ 
+ 
+ source = requests.get(url)
+ var_a = re.findall('var a = (.*?);', source.text)[0]
+ var_b = re.findall('var b = (.*?);', source.text)[0]
+ var_c = re.findall('var c = (.*?);', source.text)[0]
+ var_d = re.findall('var d = (.*?);', source.text)[0]
+ var_f = re.findall('var f = (.*?);', source.text)[0]
+ 
+ a= int(float(var_a))/int(float(var_f))
+ b= int(float(var_b))/int(float(var_f))
+ c= int(float(var_c))/int(float(var_f))
+ d= int(float(var_d))/int(float(var_f))
+ 
+ rtmp = 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d)
+ return rtmp
+ 
+ 
+]]></expres>
+<page></page>
 </regex>
+ 
+<regex>
+<name>path</name>
+<expres>privatestream\/(.*?)';</expres>
+<page>http://privatestream.tv/player?streamname=fawergge</page>
+<referer>http://privatestream.tv/</referer>
+<agent></agent>
+</regex><thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail>
+</item>
+<item>  
+<title>[COLOR=white][B][I] SPORTV 1[/I][/B][/COLOR][COLOR=red][B][I]SD[/I][/B][/COLOR]</title>
+<link>rtmp://31.220.40.63/privatestream/ app=privatestream/ playpath=fawergge?keys=SV_LwvATKH5Cin2z5vmXJQ&keyt=1470488331 swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=fawergge</link>
 <thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail>
 </item>
+<item>  
 <title>[COLOR=white][B][I] SPORTV 1[/I][/B][/COLOR][COLOR=red][B][I]SD[/I][/B][/COLOR]</title>
 <link>rtmp://179.43.158.195:16625/stream/ playPath=NdTaX9Epd0.stream?t441i623yt2211i2470tt2211i711mt726i711kt949i57nt949i57nt2211i711mt2470a623kt2211i2470tt623i95b swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN/2021,0,0,242 timeout=10 live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&a=t446i725yt7862i7909tt7862i396mt201i396kt841i2157nt841i2157nt7862i396mt7909a725kt7862i7909tt725i928b&st=04o205n4w574v2s27436q24693u5c4q3g58533d3g4b4w234e4b4u234v2v234x2u2p2s2a4u2&adx=&stream=24u2b4l564d49484d4i5z294x28423n22434o3a3f4w2z2747476w226d3j4l5u354v303q4i4h5w2u294u244745494q2u28404r284v204v2p2x4m4l4t2r2w2x2766476e3s5b4s3i5y313c3j4l5i2i4o4p4p564q345i5o554l4r5v3n226o204t2n264a4x2u2x243d4j5d4a4a48484x2d4a494u2s2i5746433b45464e4649494s2x234z3n204o204t2n204&sooor=MTA=&str=is&ok=&cat=3&link=1&idom=firstrowas.co</link>
-<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail><item>  
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail>
+</item>
+<item>  
 <title>[COLOR=white][B][I] SPORTV 1[/I][/B][/COLOR][COLOR=red][B][I]SD [/I][/B][/COLOR]</title>
 <link>rtmp://179.43.158.195:16625/stream/ playPath=EuxPCYoiaN.stream?t4131a662kt725i225rt34i7438nt4131a662kt725i622kt725i225rt4131a662kt725i225rt231i9104pt4131a662kt34i7438nt725i225r swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN/2021,0,0,242 timeout=10 live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&a=t703a353kt605i650rt16i2815nt703a353kt605i684kt605i650rt703a353kt605i650rt590i4400pt703a353kt16i2815nt605i650r&st=m4m466n4w5c4t2s4643683u5n3m414h4o5h5o3p2p243z244746453z3w213b4s2t2u203&adx=&stream=6424f4n59464u2s2o574u2k5t2l523n2o416u4a3f413x2766476e3s5r3b3a5l4d444l324r2a4z2v224p2f43464f4y2p27454z204c306w483u5a4v2t4o2w4e3x525p414s5g454x3b3k4j4f4m5a20594f4e5j4r5y32456p2o234z3t2g574742384l564x2t2u223a4m5f4k5237494t2749454s2t2c484449433e5q234242434p2o234z3n2&sooor=OQ==&str=is&ok=&cat=3&link=1&idom=firstrowas.co</link>
-<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail> </item>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail> 
+</item>
+
+
+
 
 <item>  
 <title>[COLOR=white][B][I] SPORTV 2 [/I][/B][/COLOR][COLOR=red][B][I]SD[/I][/B][/COLOR]</title>
@@ -76,7 +115,7 @@
 
 
 <item>  
-<title>[COLOR=white][B][I] SPORTV 5 [/I][/B][/COLOR]</title>
+<title>[COLOR=white][B][I] SPORTV 5 [/I][/B][/COLOR][COLOR red](SD)[/COLOR]</title> 
 <link>$doregex[file]|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36</link>
 <regex>
 <name>file</name>
@@ -88,21 +127,51 @@
 </item>
 
 <item>  
-<title>[COLOR=white][B][I] BENFICA TV [/I][/B][/COLOR][COLOR=red][B][I]SD[/I][/B][/COLOR]</title>
-<link>$doregex[file]|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36</link>
+<title>[COLOR=white][B][I] BENFICA TV [/I][/B][/COLOR][COLOR=red][B][I]SD[/I][/B][/COLOR]</title> 
+<link>$doregex[get-rtmp]/privatestream/ app=privatestream/ playpath=$doregex[path] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=gergtrg</link>
 <regex>
-<name>file</name>
-<expres>file: "(.*?)"</expres>
-<page>http://sharecast.eu/embed/benmerda-015ca</page>
-<referer>http://sharecast.eu/embed/benmerda-015ca</referer>
-<thumbnail>http://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>
+<name>get-rtmp</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://privatestream.tv/player?streamname=gergtrg'):
+ 
+ import requests
+ import re
+ 
+ 
+ source = requests.get(url)
+ var_a = re.findall('var a = (.*?);', source.text)[0]
+ var_b = re.findall('var b = (.*?);', source.text)[0]
+ var_c = re.findall('var c = (.*?);', source.text)[0]
+ var_d = re.findall('var d = (.*?);', source.text)[0]
+ var_f = re.findall('var f = (.*?);', source.text)[0]
+ 
+ a= int(float(var_a))/int(float(var_f))
+ b= int(float(var_b))/int(float(var_f))
+ c= int(float(var_c))/int(float(var_f))
+ d= int(float(var_d))/int(float(var_f))
+ 
+ rtmp = 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d)
+ return rtmp
+ 
+ 
+]]></expres>
+<page></page>
 </regex>
-</item>
+ 
+<regex>
+<name>path</name>
+<expres>privatestream\/(.*?)';</expres>
+<page>http://privatestream.tv/player?streamname=gergtrg</page>
+<referer>http://privatestream.tv/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>
+</item> 
 
 
 
 <item> 
-            <title>[COLOR lime] • [COLOR grey][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](SPORTSDEVILL)[/COLOR]</title> 
+            <title>[COLOR green] • [COLOR grey][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](SPORTSDEVILL)[/COLOR]</title> 
    <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
 <thumbnail>https://s20.postimg.org/tfr3lap19/sport1_de.jpg</thumbnail>
 </item>  
@@ -191,13 +260,14 @@
 <thumbnail>http://s20.postimg.org/j0p0j7nst/sporting_tv_pt.png</thumbnail></item>
 
 <item>
-<title>[COLOR white][B][I]cmtv [/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title>
+<title>[COLOR white][B][I]CMTV [/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title>
 <sportsdevil>http://www.tvdez.com/embed.php?c=cmtv</sportsdevil>
 <referer>http://www.tvdez.com/</referer>
 <thumbnail>http://s20.postimg.org/u3s3bcbb1/a_bola_tv.jpg</thumbnail></item>
 
+
 <item> 
-            <title>[COLOR lime] • [COLOR grey][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](ACESTREAM)[/COLOR]</title> 
+<title>[COLOR green] • [COLOR grey][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](ACESTREAM)[/COLOR]</title> 
    <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
 <thumbnail>https://s20.postimg.org/tfr3lap19/sport1_de.jpg</thumbnail>
 </item>  
@@ -210,5 +280,4 @@
 <link>plugin://program.plexus/?url=54967f21ecb7841523065a087c2c35d16e7d2e2e&amp;mode=1&amp;name=SPORT TV 1</link>
 <thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail>
 </item>
-
 
