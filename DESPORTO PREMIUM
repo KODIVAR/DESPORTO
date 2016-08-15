@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-
-<item>
-<title>[COLOR white][B][I]TB 65 SPORTS[/I][/B][/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/Teamblue65/Teamblue-IPTV/master/PORTUGAL_DESPORTO.xml</externallink>
-<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/fc38e3892ad0402fc5c60e4211f7e5b6fbbfd456/v1/DESPORTO.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
-</item>
-<item>
-<title>[COLOR white][B][I]LIVETV SPORTS [/I][/B][/COLOR] </title>
-<link>http://ignorame</link>
-<externallink>http://pastebin.com/raw/bsucAk1q</externallink>
-<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
-</item>
 <item>
 <title>[COLOR white][B][I]TVDT SPORTS [/I][/B][/COLOR] </title>
 <link>http://ignorame</link>
@@ -31,9 +16,9 @@
 <fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
 </item>
 <item>
-<title>[COLOR white][B][I]MARTUNIS SPORTS [/I][/B][/COLOR] </title>
+<title>[COLOR white][B][I]PSYCHO TOP [/I][/B][/COLOR] </title>
 <link>http://ignorame</link>
-<externallink>http://pastebin.com/raw/MK55J8yP</externallink>
+<externallink>http://pastebin.com/raw/QBepTML7</externallink>
 <thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
 </item>
@@ -44,4 +29,26 @@
 <thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
 </item>
+<item>
+<title>[COLOR white][B][I]LIVETV SPORTS [/I][/B][/COLOR] </title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/bsucAk1q</externallink>
+<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
+</item>
+<item>
+<title>[COLOR white][B][I]TB 65 SPORTS[/I][/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Teamblue65/Teamblue-IPTV/master/TV%20PT%20DESPORTO.xml</externallink>
+<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
+</item>
+<item>
+<title>[COLOR white][B][I]MARTUNIS SPORTS [/I][/B][/COLOR] </title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/MK55J8yP</externallink>
+<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
+</item>
+
 
