@@ -30,25 +30,30 @@
 <fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
 </item>
 <item>
-<title>[COLOR white][B][I]LIVETV SPORTS [/I][/B][/COLOR] </title>
-<link>http://ignorame</link>
-<externallink>http://pastebin.com/raw/nLmHJ6dx</externallink>
-<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
-</item>
-<item>
-<title>[COLOR white][B][I]TB 65 SPORTS[/I][/B][/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/Teamblue65/Teamblue-IPTV/master/TV%20PT%20DESPORTO.xml</externallink>
-<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
-</item>
-<item>
 <title>[COLOR white][B][I]MARTUNIS SPORTS [/I][/B][/COLOR] </title>
 <link>http://ignorame</link>
 <externallink>http://pastebin.com/raw/MK55J8yP</externallink>
 <thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
 </item>
-
-
+<item>
+<title>[COLOR white][B][I]TB 65 SPORTS[/I][/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Teamblue1965/MENUS/master/MENU_FUTEBOL</externallink>
+<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
+</item>
+<item>
+<title>[COLOR white][B][I]INSPIRATION SPORTS [/I][/B][/COLOR] </title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/JN1974/enfim/master/FUTBOL</externallink>
+<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
+</item>
+<item>
+<title>[COLOR white][B][I]LIVETV SPORTS [/I][/B][/COLOR] </title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/nLmHJ6dx</externallink>
+<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
+</item>
