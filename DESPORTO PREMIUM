@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-<item>
-<title>[COLOR white][B][I]TVDT SPORTS [/I][/B][/COLOR] </title>
-<link>http://ignorame</link>
-<externallink>http://pastebin.com/raw/5P4iDzHM</externallink>
-<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
-</item>
+
 <item>
 <title>[COLOR white][B][I]PSYCHO SPORTS [/I][/B][/COLOR] </title>
 <link>http://ignorame</link>
@@ -15,13 +9,7 @@
 <thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
 </item>
-<item>
-<title>[COLOR white][B][I]PSYCHO TOP [/I][/B][/COLOR] </title>
-<link>http://ignorame</link>
-<externallink>http://pastebin.com/raw/QBepTML7</externallink>
-<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
-</item>
+
 <item>
 <title>[COLOR white][B][I]BLACKSHARING SPORTS [/I][/B][/COLOR] </title>
 <link>http://ignorame</link>
@@ -46,14 +34,7 @@
 <item>
 <title>[COLOR white][B][I]TB 65 SPORTS[/I][/B][/COLOR]</title>
 <link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/Teamblue1965/MENUS/master/MENU_FUTEBOL</externallink>
-<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
-</item>
-<item>
-<title>[COLOR white][B][I]INSPIRATION SPORTS [/I][/B][/COLOR] </title>
-<link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/JN1974/enfim/master/FUTBOL</externallink>
+<externallink>https://raw.githubusercontent.com/teamblue65/LISTAS/master/AGENDA_DIARIA</externallink>
 <thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
 </item>
@@ -61,6 +42,13 @@
 <title>[COLOR white][B][I]LIVETV SPORTS [/I][/B][/COLOR] </title>
 <link>http://ignorame</link>
 <externallink>http://pastebin.com/raw/tpXSXEgk</externallink>
+<thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
+</item>
+<item>
+<title>[COLOR white][B][I]TVDT SPORTS [/I][/B][/COLOR] </title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/5P4iDzHM</externallink>
 <thumbnail>https://i.ytimg.com/vi/eb1WpOc2hrg/hqdefault.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/KODIVAR/CumCatano-TV/master/CCTV.png</fanart>
 </item>
