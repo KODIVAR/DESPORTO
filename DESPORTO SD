@@ -1,9 +1,4 @@
-         <item> 
-            <title>[COLOR lime] • [COLOR white][B][I]REVISAO CANAIS 23/8/2016[/I][/B][/COLOR]</title> 
-   <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
-</item>       
-
-
+  
 
 
 
@@ -26,12 +21,25 @@
 <referer>http://nowwatchtvlive.co</referer>
 </item>
 
-item>                        
-<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]   rtmp</title>
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] BTV  [/COLOR][/B]</title>
 <fanart></fanart>                        
-<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail> 
-<link>rtmp://31.220.2.87/privatestream/ playpath=fawergge?keys=yqzZN9DqenqAl5BynKaN9Q&keyt=1475686070 swfUrl=http://privatestream.tv/js/jwplayer.flash.swf live=1 pageUrl=http://privatestream.tv/player?streamname=fawergge&width=599&height=399</link>
+<thumbnail>https://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>                      
+<sportsdevil>http://www.tvtuga.com/benfica-tv/</sportsdevil>
+<referer>http://www.tvtuga.com/</referer>
 </item>
+
+
+
+
+
+
+
+
+       <item> 
+            <title>[COLOR lime] • [COLOR white][B][I]REVISAO CANAIS 23/8/2016[/I][/B][/COLOR]</title> 
+   <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
+</item>       
 
 
 
