@@ -6,12 +6,7 @@
 
 
 
-item>                        
-<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]</title>
-<fanart></fanart>                        
-<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail> 
-<link>rtmp://$OPT:rtmp-raw=rtmp://31.220.2.87/privatestream/ playpath=fawergge?keys=yqzZN9DqenqAl5BynKaN9Q&keyt=1475686070 swfUrl=http://privatestream.tv/js/jwplayer.flash.swf live=1 pageUrl=http://privatestream.tv/player?streamname=fawergge&width=599&height=399</link>
-</item>
+
 
 
 
@@ -31,7 +26,12 @@ item>
 <referer>http://nowwatchtvlive.co</referer>
 </item>
 
-
+item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]   rtmp</title>
+<fanart></fanart>                        
+<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail> 
+<link>rtmp://31.220.2.87/privatestream/ playpath=fawergge?keys=yqzZN9DqenqAl5BynKaN9Q&keyt=1475686070 swfUrl=http://privatestream.tv/js/jwplayer.flash.swf live=1 pageUrl=http://privatestream.tv/player?streamname=fawergge&width=599&height=399</link>
+</item>
 
 
 
